@@ -21,7 +21,7 @@ Once loaded, the AI can:
 ### For AI Tools
 
 1. Download or clone this repository.
-2. Copy the content of [`skill/SKILL.md`](./skill/SKILL.md).
+2. Copy the content of [`muji-style-app-design/SKILL.md`](.muji-style-app-design/SKILL.mdd).
 3. Paste it into your AI tool as a system prompt or knowledge base.
 4. Start asking questions like:
    - "How should I design the navigation for my minimalist shopping app?"
