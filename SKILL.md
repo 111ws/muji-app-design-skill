@@ -1,441 +1,213 @@
 ---
 name: muji-style-app-design
-description: A design skill for creating minimalist Japanese MUJI-inspired mobile applications. Focuses on information architecture, navigation hierarchy, cognitive load reduction, calm visual systems, and essential-first UX.
+description: A minimalist Japanese-inspired mobile app design framework based on MUJI philosophy, information architecture, cognitive load reduction, and human-centered interaction.
 ---
 
 # MUJI Style App Design Skill
 
-## Overview
 
-This skill defines a minimalist mobile application design philosophy inspired by MUJI (無印良品).
+## Purpose
 
-The goal is not simply to create a visually empty interface, but to achieve:
+Use this skill when designing:
 
-"Complex thinking behind simple appearance."
+- mobile applications
+- SaaS products
+- AI interfaces
+- accessibility tools
+- productivity applications
 
-A MUJI-style app removes unnecessary complexity while preserving essential user value.
 
-The design principle:
+The goal:
 
-> Remove everything that does not directly serve the user's intention.
+Create interfaces that are:
+
+- simple
+- calm
+- intentional
+- human-centered
+
 
 ---
 
-# 1. Core Philosophy
+# Core Principle
 
-## 1.1 Minimalism is subtraction, not reduction
+Minimalism means removing unnecessary complexity.
 
-Do not interpret minimalism as:
+It does NOT mean:
 
-- fewer screens
 - fewer features
-- empty layouts
-- simple decoration
+- empty screens
+- decorative simplicity
 
-Instead:
 
-Minimalism means:
+The question:
 
-- fewer unnecessary decisions
-- fewer visual interruptions
-- clearer priorities
-- shorter user paths
+"Does this element help the user's intention?"
 
-Every element must answer:
+If not:
 
-"Why does this exist?"
+remove it,
+hide it,
+or simplify it.
 
-If the answer is unclear, remove or hide it.
 
 ---
 
-# 2. Information Architecture
+# Information Architecture
 
-## 2.1 Primary Navigation Rule
 
-The bottom navigation bar should contain only the most important user goals.
+## Navigation
+
+Primary navigation:
+
+Maximum 5 destinations.
 
 Recommended:
 
-- 3-5 primary sections
+3-5 tabs.
+
+
+Navigation represents:
+
+- repeated user goals
+- important states
+- frequent actions
+
 
 Avoid:
 
-- 6+ tabs
 - feature-based navigation
 - exposing every capability
 
-Navigation should represent:
-
-"Where users repeatedly want to go"
-
-Not:
-
-"Everything the product can do"
-
-Example:
-
-Good:
-Home
-Explore
-Create
-Collection
-Profile
-
-Bad:
-
-Shopping
-Coupon
-Activity
-Message
-Settings
-History
-Membership
-Search
 
 ---
 
-# 3. Feature Classification
+# Feature Hierarchy
 
-Every feature should be classified into three layers.
 
-## Layer 1: Core Action
+## Level 1: Core
 
-Always visible.
-
-Characteristics:
-
-- high frequency
-- high user value
-- repeated daily behavior
+Visible immediately.
 
 Examples:
 
-- Create
-- Search
-- Purchase
-- Check status
+- create
+- search
+- purchase
+- check status
 
----
 
-## Layer 2: Supporting Action
+## Level 2: Supporting
 
-Accessible but not dominant.
-
-Placement:
-
-- secondary pages
-- cards
-- contextual actions
+Accessible contextually.
 
 Examples:
 
-- recommendations
 - filters
+- recommendations
 - history
 
----
 
-## Layer 3: Hidden Complexity
+## Level 3: Advanced
 
-Move into:
-
-- hamburger menu
-- settings
-- profile area
+Hidden.
 
 Examples:
 
+- settings
 - account management
-- preferences
 - rarely used tools
 
-Principle:
-
-"Users should not pay cognitive cost for functions they rarely use."
 
 ---
 
-# 4. Navigation Order Principle
+# Launch Experience
 
-## Default order ≠ importance order
 
-Traditional apps often arrange:
+The first screen should answer:
 
-Most important → first tab
+"What does the user want now?"
 
-MUJI-style thinking:
 
-Navigation position should consider:
+Do not optimize for:
 
-1. Usage frequency
-2. Duration of stay
-3. User expectation
+"What does the company want to show?"
 
-Example:
-
-A membership/passport page:
-
-- visited frequently
-- user checks information quickly
-- short interaction duration
-
-Therefore:
-
-It can appear first after app launch,
-while remaining last in navigation.
-
-Reason:
-
-The launch state serves immediate user intention,
-not navigation hierarchy.
 
 ---
 
-# 5. Home Screen Principle
+# Visual System
 
-## The first screen should answer:
 
-"What does the user want right now?"
-
-Not:
-
-"What does the company want to promote?"
-
-Avoid:
-
-- excessive banners
-- marketing walls
-- feature announcements
+## Color
 
 Prefer:
 
-- current user goal
-- personalized content
-- immediate value
-
----
-
-# 6. Commerce App Principle
-
-For shopping applications:
-
-Prioritize user motivation.
-
-Typical priority:
-
-1. Current benefit
-2. Existing needs
-3. New discovery
-
-Example:
-
-User thinking:
-
-"Is anything discounted?"
-
-before:
-
-"What products are new?"
-
-Therefore:
-
-Promotion / sale information should often be integrated into recommendation areas.
-
-Do not separate:
-
-- Sale
-- Recommendation
-- New products
-
-if they serve the same shopping intention.
-
----
-
-# 7. Visual Language
-
-## 7.1 Color
-
-Use:
-
-- neutral backgrounds
+- neutral colors
 - natural tones
-- low saturation colors
+- low saturation
+
 
 Avoid:
 
 - excessive gradients
-- aggressive promotional colors
-- unnecessary contrast
+- promotional colors
 
-Color should communicate hierarchy.
 
-Not decoration.
-
----
-
-## 7.2 Typography
+## Typography
 
 Use:
 
 - clear hierarchy
 - generous spacing
-- readable sizes
+- readable scale
+
 
 Avoid:
 
-- dense information blocks
-- excessive font variation
-
-Recommended hierarchy:
-Large title
-Medium section title
-Body content
-Supporting information
+- dense information
+- unnecessary styles
 
 
 ---
 
-# 8. Space and Emptiness
+# Interaction
 
-## Empty space is an interaction resource
 
-Whitespace provides:
+Reduce:
 
-- focus
-- calmness
-- visual breathing room
-- emotional comfort
+- decisions
+- interruptions
+- cognitive load
 
-Do not fill every pixel.
 
-The interface should feel:
+Increase:
 
-"quiet"
+- confidence
+- clarity
+- predictability
 
-rather than:
-
-"empty"
 
 ---
 
-# 9. Component Design Rules
+# AI Generation Instruction
 
-## Cards
 
-Avoid:
+When creating a MUJI-style application:
 
-- excessive shadows
-- rounded containers everywhere
-- information overload
+Follow:
 
-Prefer:
+1. Keep primary navigation under 5 items.
+2. Hide secondary complexity.
+3. Prioritize user intention.
+4. Use whitespace intentionally.
+5. Avoid visual noise.
+6. Make every component meaningful.
 
-- simple grouping
-- natural spacing
-- clear boundaries
 
----
-
-## Buttons
-
-Primary actions:
-
-- obvious
-- limited quantity
-
-Avoid:
-
-Multiple competing CTA buttons.
-
-One screen:
-
-One primary intention.
-
----
-
-# 10. Interaction Philosophy
-
-## Reduce decision fatigue
-
-Bad:
-
-User sees:
-
-- 10 options
-- 5 buttons
-- 8 recommendations
-
-Good:
-
-System understands:
-
-"What is probably needed now"
-
-and presents:
-
-- one clear path
-- optional exploration
-
----
-
-# 11. AI Design Generation Prompt
-
-When generating a MUJI-style application:
-
-Follow these constraints:
-Create a minimalist Japanese-inspired mobile app.
-Prioritize:
-essential functions
-calm information hierarchy
-reduced cognitive load
-intentional whitespace
-simple navigation
-hidden secondary complexity
-Navigation:
-Maximum 5 tabs.
-Primary interface:
-Only show frequent user goals.
-Secondary functions:
-Move into menus or contextual locations.
-Visual style:
-Natural colors,
-clean typography,
-quiet premium feeling,
-functional minimalism.
-Avoid:
-excessive cards
-aggressive marketing banners
-unnecessary animations
-feature overload.
 The final experience should feel:
-calm,
-rational,
-timeless,
-and human-centered.
 
-
----
-
-# 12. Design Checklist
-
-Before shipping:
-
-- [ ] Does every visible element have a clear purpose?
-- [ ] Are low-frequency functions hidden?
-- [ ] Is navigation limited to 3-5 core destinations?
-- [ ] Does the first screen match user intention?
-- [ ] Can users complete the main task quickly?
-- [ ] Is whitespace improving focus?
-- [ ] Does the interface feel calm rather than empty?
-
----
-
-# Final Principle
-
-A MUJI-style application is not an app with fewer things.
-
-It is an app where every remaining thing matters.
-
-"Less interface.
-More understanding."
+quiet,
+premium,
+functional,
+timeless.
