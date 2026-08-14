@@ -18,8 +18,6 @@ Once loaded, the AI can:
 
 ## How to Use
 
-### For AI Tools
-
 1. Download or clone this repository.
 2. Copy the content of [`muji-style-app-design/SKILL.md`](.muji-style-app-design/SKILL.mdd).
 3. Paste it into your AI tool as a system prompt or knowledge base.
@@ -28,10 +26,6 @@ Once loaded, the AI can:
    - "Where should I place discount information?"
    - "What is the best launch page strategy for a high-frequency points feature?"
 
-### For Humans
-
-You can also read the skill file directly as a comprehensive design guide.  
-See [`skill/SKILL.md`](./skill/SKILL.md) for the full content.
 
 ## Repository Structure
 
